@@ -1,0 +1,15 @@
+.CounterApp {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: yellow;
+  width: 100%;
+  height: 20%;
+}
+
+button {
+  margin: 0px 0px 0px 5px;
+  font-size: 18;
+  padding: 5px;
+  background-color: pink;
+}
