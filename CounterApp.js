@@ -28,9 +28,7 @@ export default function CounterApp() {
     setCount(1 + count);
     // instead, you can do the following
     */
-    setCount((prev) => prev + 1);
-    setCount((prev) => prev + 1);
-    setCount((prev) => prev + 1);
+    setCount((prev) => prev*2);
     // Of course you could instead do one of the following:
     //. setCount(count + 3);
     //   setCount((prev) => prev + 3);
@@ -72,7 +70,7 @@ export default function CounterApp() {
       <h1>Counter App</h1>
       <span style={styles.number}>{count}</span>
       <button onClick={plus1}>+1</button>
-      <button onClick={plus3}>+3</button>
+      <button onClick={plus3}>*2</button>
       <button onClick={reset}>Reset</button>
     </div>
   );
